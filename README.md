@@ -1,4 +1,4 @@
-一、实验目的：
+一、实验目的
 分析学生选课系统
 使用GUI窗体及其组件设计窗体界面
 完成学生选课过程业务逻辑编程
@@ -12,7 +12,6 @@
 4、	基于输入/输出编程，支持学生、课程、教师等数据的读写操作。
 
 三、流程图
-
 ![](https://github.com/LIUCHANGYOU6/liu/blob/master/1.png)
 
 四、核心代码
@@ -38,6 +37,10 @@
 		            e1.printStackTrace();
 		        }
 			
+			
 五、运行结果
 ![](https://github.com/LIUCHANGYOU6/liu/blob/master/3.png)
 ![](https://github.com/LIUCHANGYOU6/liu/blob/master/2.png)
+
+六、感想
+通过此次实验目的是完成一个学生选课系统。在编写程序过程中使用了GUI编程的方法来进行完成界面，将这学期所学的java理论知识加以实际运用。此次Java实验更培养了我们独立思考，分析问题，并解决问题的方法。
