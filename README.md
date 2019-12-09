@@ -25,8 +25,7 @@
 	            writer.close();
 	        } catch (IOException e1) {
 	            e1.printStackTrace();
-	        }
-          
+	        }         
 2.
       try {
 		  BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\46975\\Desktop\\java实验\\exp5\\T.txt"));
