@@ -12,4 +12,28 @@
 4、	基于输入/输出编程，支持学生、课程、教师等数据的读写操作。
 
 三、流程图
-![]()
+![](https://github.com/LIUCHANGYOU6/liu/blob/master/1.png)
+
+四、核心代码
+1.
+   FileWriter writer;
+	        try {
+	            writer = new FileWriter("C:\\Users\\46975\\Desktop\\java实验\\exp5\\T.txt",true);
+	            writer.append(s6); 
+	            writer.flush();
+	            writer.close();
+	        } catch (IOException e1) {
+	            e1.printStackTrace();
+	        }
+          
+2.
+      try {
+		  BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\46975\\Desktop\\java实验\\exp5\\T.txt"));
+		    String Student_num = br.readLine();
+		    br.close();
+		    writer = new FileWriter("C:\\Users\\46975\\Desktop\\java实验\\exp5" + Student_num +".txt",true);		                    writer.append(chosen); 
+		    writer.close();
+           } catch (IOException e1) {
+		            e1.printStackTrace();
+		        }
+五、
